@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Контейнер */
+
+.container {
+	width: 100%;
+	max-width: 78vw;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	color: #8694a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Обратная связь */
+
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 350px;
+	color: #8694a4;
+	margin: 0 auto 150px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-zvonok{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.form-zvonok div{
+	padding: 15px 0;
+}
+
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form-zvonok label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-zvonok input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+
+.form-zvonok label span{
+	color: red;
+}
+
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	background-color: #8694a4;
+	cursor: pointer;
+	border: 3px #8694a4 solid;
+	border-radius: 5px;
+}
+
+.form-zvonok .bot-send-mail:hover{
+	color: #8694a4;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
