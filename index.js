@@ -30,11 +30,24 @@ const songs = [
         displayName: 'No Regrets',
         cover: 'assets/3.jpg',
         artist: 'Sore4 & Kwazer & Warheart',
-    }
+    },
+    {
+        path: 'assets/4.mp3',
+        displayName: 'K.I.S.S',
+        cover: 'assets/4.jpg',
+        artist: 'Skoozi',
+    },
+    {
+        path: 'assets/5.mp3',
+        displayName: 'All I Need',
+        cover: 'assets/5.jpg',
+        artist: 'Skoozi',
+    },
 ];
 
 let musicIndex = 0;
 let isPlaying = false;
+
 
 function togglePlay() {
     if (isPlaying) {
